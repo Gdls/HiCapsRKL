@@ -10,23 +10,23 @@ Libraries: ubuntu = 16.04, cuda = 10.2, cudnn = 8, GPU card = NVIDIA Tesla V100 
 Dependencies: python > 3.5, tensorflow > 1.10.0, pdb, numpy, tdqm, codecs<br>
 #### Code Structure:
 >HiCapsRKL<br>
-├── SampleData<br>
-│   ├── train.tsv<br>
-│   ├── relevance_prediction_test_data<br>
-│   │  ├── test.tsv<br>
-│   ├── medical_literature_retrieval_test_data<br>
-│   │  ├── test.tsv<br>
-├── InitModel<br>
-│   ├── modellink.txt<br>
-├── __init__.py<br>
-├── match_utils.py<br>
-├── modeling.py<br>
-├── optimization.py<br>
-├── tokenization.py<br>
-├── train_HiCapsRKL.py<br>
-├── f1.py<br>
-├── ranking_metrics.py<br>
-└── README.md<br>
+>>SampleData<br>
+>>>train.tsv<br>
+>>>relevance_prediction_test_data<br>
+>>>>test.tsv<br>
+>>>medical_literature_retrieval_test_data<br>
+>>>>test.tsv<br>
+>>InitModel<br>
+>>>modellink.txt<br>
+>>__init__.py<br>
+>> match_utils.py<br>
+>> modeling.py<br>
+>>optimization.py<br>
+>>tokenization.py<br>
+>>train_HiCapsRKL.py<br>
+>>f1.py<br>
+>>ranking_metrics.py<br>
+>>README.md<br>
 
 * "train_HiCapsRKL.py" is the main file for training or test.
 * "modeling.py" is the file of the model structure.
