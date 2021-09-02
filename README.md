@@ -9,7 +9,7 @@ More details about the underneath model can be found in the submitted paper.
 Libraries: ubuntu = 16.04, cuda = 10.2, cudnn = 8, GPU card = NVIDIA Tesla V100 * 1<br>
 Dependencies: python > 3.5, tensorflow > 1.10.0, pdb, numpy, tdqm, codecs<br>
 #### Code Structure:
->HiCapsRKL<br>
+├─HiCapsRKL<br>
 ├── SampleData<br>
 │   ├── train.tsv<br>
 │   ├── relevance_prediction_test_data<br>
