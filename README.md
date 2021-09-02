@@ -45,15 +45,20 @@ and these data could be used to run the training and testing process for this co
 The directory contains the `BERT-Base, Chinese` pre-trained model as the initial checkpoint for training HiCapsRKL. If needed, one can download these paramters from https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip .
 
 #### Train Model : 
+```shell
 python train_HiCapsRKL.py --task_name=medrkg --do_train=true --data_dir=SampleData --vocab_file=InitModel/vocab.txt --bert_config_file=InitModel/bert_config.json --init_checkpoint=InitModel/bert_model.ckpt --max_seq_length=256 --train_batch_size=8 --learning_rate=2e-5 --num_train_epochs=10.0 --output_dir=output_dir/
-
+```
 #### Predict on relevance prediction test set & F1 measurement: 
+```shell
 * python train_HiCapsRKL.py --task_name=medrkg --do_predict=true --data_dir=SampleData/relevance_prediction_test_data --vocab_file=InitModel/vocab.txt --bert_config_file=InitModel/bert_config.json --init_checkpoint=output_dir/\*\*\*.ckpt --output_dir=output_dir/
 * python f1.py output_dir
+```
 
 #### Predict on matching test set & P@K, NDCG@K, MRR, MAP measurements: 
+```shell
 * python train_HiCapsRKL.py --task_name=medrkg --do_predict=true --data_dir=SampleData/medical_literature_retrieval_test_data --vocab_file=InitModel/vocab.txt --bert_config_file=InitModel/bert_config.json --init_checkpoint=output_dir/\*\*\*.ckpt --output_dir=output_dir/
 * python ranking_metrics.py output_dir
+```
 
 #### Reference
 If you use any of the resources listed here, please cite:<br>
