@@ -56,7 +56,7 @@ python train_HiCapsRKL.py --task_name=medrkg --do_train=true --data_dir=SampleDa
 * python ranking_metrics.py output_dir
 
 #### Reference
-If you use any of the resources listed here, please cite:
+If you use any of the resources listed here, please cite:<br>
 @inproceedings{gdls-2021-HiCapsRKL,<br>
 　　title = "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically",<br>
 　　author = "Liu, Xin  and Chen, Qingcai  and Chen, Junying and Zhou, Wenxiu  and Liu, Tingyu  and Yang, Xinlan  and Peng, Weihua",<br>
