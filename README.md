@@ -55,5 +55,13 @@ python train_HiCapsRKL.py --task_name=medrkg --do_train=true --data_dir=SampleDa
 * python train_HiCapsRKL.py --task_name=medrkg --do_predict=true --data_dir=SampleData/medical_literature_retrieval_test_data --vocab_file=InitModel/vocab.txt --bert_config_file=InitModel/bert_config.json --init_checkpoint=output_dir/\*\*\*.ckpt --output_dir=output_dir/
 * python ranking_metrics.py output_dir
 
-
+#### Reference
+@inproceedings{gdls-2021-HiCapsRKL,
+    title = "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically",
+    author = "Liu, Xin  and Chen, Qingcai  and Chen, Junying and Zhou, Wenxiu  and Liu, Tingyu  and Yang, Xinlan  and Peng, Weihua",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2021",
+    publisher = "Association for Computational Linguistics",
+}
 
