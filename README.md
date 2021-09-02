@@ -57,12 +57,12 @@ python train_HiCapsRKL.py --task_name=medrkg --do_train=true --data_dir=SampleDa
 
 #### Reference
 If you use any of the resources listed here, please cite:
-@inproceedings{gdls-2021-HiCapsRKL,<br>  
-    title = "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically",<br>  
-    author = "Liu, Xin  and Chen, Qingcai  and Chen, Junying and Zhou, Wenxiu  and Liu, Tingyu  and Yang, Xinlan  and Peng, Weihua",<br>  
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br>  
-    month = nov,<br>  
-    year = "2021",<br>  
+@inproceedings{gdls-2021-HiCapsRKL,<br>
+    title = "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically",<br>
+    author = "Liu, Xin  and Chen, Qingcai  and Chen, Junying and Zhou, Wenxiu  and Liu, Tingyu  and Yang, Xinlan  and Peng, Weihua",<br>
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br>
+    month = nov,<br>
+    year = "2021",<br>
     publisher = "Association for Computational Linguistics",<br>
 }
 
