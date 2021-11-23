@@ -1,7 +1,7 @@
 ### Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically
 
 #### Description
-This repository includes the source code for the paper "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically". 
+This repository includes the source code for the paper "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically"(https://aclanthology.org/2021.emnlp-main.285/). 
 Basically, the program takes the medical literature, the RCor text fragment, the KImp text fragment, and the knowledge as input, and predict a label to indicate the relevance degree between the medical literature and the knowledge. 
 More details about the underneath model can be found in the submitted paper.
 
@@ -72,13 +72,23 @@ python train_HiCapsRKL.py --task_name=medrkg --do_train=true --data_dir=SampleDa
 #### Reference
 If you use any of the resources listed here, please cite:<br>
 ```
-@inproceedings{gdls-2021-HiCapsRKL,
-　　title = "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically",
-　　author = "Liu, Xin  and Chen, Qingcai  and Chen, Junying and Zhou, Wenxiu  and Liu, Tingyu  and Yang, Xinlan  and Peng, Weihua",
-　　booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-　　month = nov,
-　　year = "2021",
-　　publisher = "Association for Computational Linguistics",
+@inproceedings{liu-etal-2021-leveraging,
+    title = "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically",
+    author = "Liu, Xin  and
+      Chen, Qingcai  and
+      Chen, Junying  and
+      Zhou, Wenxiu  and
+      Liu, Tingyu  and
+      Yang, Xinlan  and
+      Peng, Weihua",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.285",
+    pages = "3518--3532",
+    abstract = "Integrating knowledge into text is a promising way to enrich text representation, especially in the medical field. However, undifferentiated knowledge not only confuses the text representation but also imports unexpected noises. In this paper, to alleviate this problem, we propose leveraging capsule routing to associate knowledge with medical literature hierarchically (called HiCapsRKL). Firstly, HiCapsRKL extracts two empirically designed text fragments from medical literature and encodes them into fragment representations respectively. Secondly, the capsule routing algorithm is applied to two fragment representations. Through the capsule computing and dynamic routing, each representation is processed into a new representation (denoted as caps-representation), and we integrate the caps-representations as information gain to associate knowledge with medical literature hierarchically. Finally, HiCapsRKL are validated on relevance prediction and medical literature retrieval test sets. The experimental results and analyses show that HiCapsRKLcan more accurately associate knowledge with medical literature than mainstream methods. In summary, HiCapsRKL can efficiently help selecting the most relevant knowledge to the medical literature, which may be an alternative attempt to improve knowledge-based text representation. Source code is released on GitHub.",
 }
 ```
 
