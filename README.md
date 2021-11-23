@@ -1,7 +1,7 @@
 ### Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically
 
 #### Description
-This repository includes the source code for the paper "Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically"(https://aclanthology.org/2021.emnlp-main.285/). 
+This repository includes the source code for the paper "[Leveraging Capsule Routing to Associate Knowledge with Medical Literature Hierarchically](https://aclanthology.org/2021.emnlp-main.285/)". 
 Basically, the program takes the medical literature, the RCor text fragment, the KImp text fragment, and the knowledge as input, and predict a label to indicate the relevance degree between the medical literature and the knowledge. 
 More details about the underneath model can be found in the submitted paper.
 
