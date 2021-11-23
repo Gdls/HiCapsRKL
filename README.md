@@ -39,7 +39,7 @@ Dependencies: python > 3.5, tensorflow > 1.10.0, pdb, numpy, tdqm, codecs<br>
 #### SampleData Description
 The training data (train.tsv), the relevance prediction test data (relevance_prediction_test_data/test.tsv), and the medical literature retrieval test data (medical_literature_retrieval_test_data/test.tsv) are randomly sampled from each whole set 
 and these data could be used to run the training and testing process for this code.
-* data format: <label + "\t" + MedL + "\t" + K_str + "\t" + K_idx + "\t" + RCor_score + "\t" + RCor_text_fragment + "\t" + KImp_score + "\t" + KImp_text_fragment + "\t" + keywords + "\t" + MedL_id + "\t" + bk_location>
+* data format: <label + [TAB] + MedL + [TAB] + K_str + [TAB] + K_idx + [TAB] + RCor_score + [TAB] + RCor_text_fragment + [TAB] + KImp_score + [TAB] + KImp_text_fragment + [TAB] + keywords + [TAB] + MedL_id + [TAB] + bk_location>
 
 #### InitModel Description
 The directory contains the `BERT-Base, Chinese` pre-trained model as the initial checkpoint for training HiCapsRKL. If needed, one can download these paramters from https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip .
